@@ -16,7 +16,7 @@
         <label for="username">Usuário:</label><br>
         <input type="text" id="username" name="username"><br>
         <label for="userpassword">Senha:</label><br>
-        <input type="text" id="userpassword" name="userpassword">
+        <input type="password" id="userpassword" name="userpassword">
 
         <h3>Dados Pessoais</h3>
         <label for="name">Nome:</label><br>
@@ -41,17 +41,35 @@
             <option value="são paulo">São Paulo</option>
             <option value="paraná">Paraná</option>
             <option value="minas gerais">Minas Gerais</option>
-        </select>
+        </select><br>
         <label for="CEP">CEP:</label><br>
         <input type="text" id="CEP" name="CEP"><br>
 
         <h3>Gênero:</h3>
-
+        <input type="radio" id="masc" name="gender" value="masculino">
+        <label for="masc">Masculino</label><br>
+        <input type="radio" id="fem" name="gender" value="feminino">
+        <label for="fem">Feminino</label><br>
+        <input type="radio" id="none" name="gender" value="preferiu não falar">
+        <label for="none">Prefiro não falar</label><br>
 
         <h3>Curso:</h3>
-
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
 
         <h3>Modelo:</h3>
+        <input type="radio" id="presec" name="model" value="presencial">
+        <label for="presec">Presencial</label><br>
+        <input type="radio" id="ead" name="model" value="EAD">
+        <label for="ead">EAD</label><br>
+        <input type="radio" id="semi" name="model" value="semi presencial">
+        <label for="semi">Semi Presencial</label><br><br>
 
         <input type="submit" value="Submit">
     
