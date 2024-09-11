@@ -1,0 +1,52 @@
+*
+{
+    background-color: rgb(40, 40, 40);
+    color: rgb(220, 220, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link
+{
+    background-color: rgb(40, 40, 40);
+}
+
+img
+{
+    border-radius: 5%;
+}
+
+/* Menu */
+nav
+{
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: gold;
+    background-color: #000000;
+}
+
+
+a:hover
+{
+    color: goldenrod;
+}
