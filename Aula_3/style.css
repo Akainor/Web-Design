@@ -1,0 +1,47 @@
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Seletor por tag */
+
+p{
+    color: red;
+}
+
+/* Seletor por classe */
+.blue{
+    color: blueviolet;
+    background-color: gray;
+    padding-left: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Seletor por id */
+#meuID{
+    color: gold;
+    text-decoration: none;
+}
+
+/* Fim dos exemplos */
+
+img{
+    width: 500px;
+    height: 500px;
+    border: 2px solid goldenrod;
+    border-radius: 1%;
+    margin: 100px;
+}
+
+.skranji{
+    font-family: "Skranji", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
