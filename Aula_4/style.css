@@ -1,0 +1,59 @@
+img
+{
+    width: 120px;
+    height: 120px;
+}
+
+.circle
+{
+    border-radius: 50%;
+}
+
+.camel
+{
+    border: 5px solid yellow;
+}
+
+.horse
+{
+    border: 5px solid red;
+}
+
+.cat
+{
+    border: 5px solid blueviolet;
+}
+
+.animals
+{
+    display: flex;
+    height: 97vh;
+
+    /*width: 50%;*/
+
+    /*justify-content: center;
+    align-items: center;*/
+
+    /*flex-direction: row-reverse;
+    justify-content: flex-end;*/
+
+    /*flex-direction: column;
+    justify-content: space-around;
+    align-items: center;*/
+
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main_text
+{
+    width: 50%;
+    padding-right: 50px;
+}
