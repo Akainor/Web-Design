@@ -1,0 +1,172 @@
+*
+{
+    background-color: grey;
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cat
+{
+    border: 5px solid purple;
+}
+
+.camel
+{
+    border: 5px solid gold;
+}
+
+.horse
+{
+    border: 5px solid red;
+}
+
+.ex01
+{
+    display: flex;
+    height: 97hv;
+    justify-content: flex-end;
+}
+
+.ex02
+{
+    display: flex;
+    height: 97hv;
+    justify-content: center;
+}
+
+.ex03
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex04
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex05
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex06
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex07
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex08
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex09
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex10
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex11
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex12
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex13
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex14
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex15
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex16
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex17
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex18
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex19
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex20
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex21
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex22
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex23
+{
+    display: flex;
+    height: 97hv;
+}
+
+.ex24
+{
+    display: flex;
+    height: 97hv;
+}
