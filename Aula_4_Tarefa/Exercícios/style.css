@@ -1,203 +1,202 @@
 * {
-    background-color: rgb(40, 40, 40);
-    color: cyan;
+  background-color: rgb(40, 40, 40);
+  color: cyan;
 }
 
 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .cat {
-    border: 5px solid yellow;
+  border: 5px solid yellow;
 }
 
 .camel {
-    border: 5px solid red;
+  border: 5px solid red;
 }
 
 .horse {
-    border: 5px solid greenyellow;
+  border: 5px solid greenyellow;
 }
 
 .ex01 {
-    display: flex;
-    height: 97vh;
-    justify-content: flex-end;
+  display: flex;
+  height: 97vh;
+  justify-content: flex-end;
 }
 
 .ex02 {
-    display: flex;
-    height: 97vh;
-    justify-content: center;
+  display: flex;
+  height: 97vh;
+  justify-content: center;
 }
 
 .ex03 {
-    display: flex;
-    height: 97vh;
-    justify-content: space-around;
+  display: flex;
+  height: 97vh;
+  justify-content: space-around;
 }
 
 .ex04 {
-    display: flex;
-    height: 97vh;
-    justify-content: space-between;
+  display: flex;
+  height: 97vh;
+  justify-content: space-between;
 }
 
 .ex05 {
-    display: flex;
-    height: 97vh;
-    align-items: flex-end;
+  display: flex;
+  height: 97vh;
+  align-items: flex-end;
 }
 
 .ex06 {
-    display: flex;
-    height: 97vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .ex07 {
-    display: flex;
-    height: 97vh;
-    justify-content: space-around;
-    align-items: flex-end;
+  display: flex;
+  height: 97vh;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .ex08 {
-    display: flex;
-    height: 97vh;
-    flex-direction: row-reverse;
+  display: flex;
+  height: 97vh;
+  flex-direction: row-reverse;
 }
 
 .ex09 {
-    display: flex;
-    height: 97vh;
-    flex-direction: column;
+  display: flex;
+  height: 97vh;
+  flex-direction: column;
 }
 
 .ex10 {
-    display: flex;
-    height: 97vh;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+  display: flex;
+  height: 97vh;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .ex11 {
-    display: flex;
-    height: 97vh;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  height: 97vh;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .ex12 {
-    display: flex;
-    height: 97vh;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+  display: flex;
+  height: 97vh;
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }
 
 .ex13 {
-    display: flex;
-    height: 97vh;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  height: 97vh;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .ex14 {
-    display: flex;
-    height: 97vh;
+  display: flex;
+  height: 97vh;
 
-    .cat {
-        order: 1;
-    }
+  .cat {
+    order: 1;
+  }
 }
 
 .ex15 {
-    display: flex;
-    height: 97vh;
+  display: flex;
+  height: 97vh;
 
-    .camel {
-        order: -1;
-    }
+  .camel {
+    order: -1;
+  }
 }
 
 .ex16 {
-    display: flex;
-    height: 97vh;
-    align-items: flex-start;
+  display: flex;
+  height: 97vh;
+  align-items: flex-start;
 
-    .cat {
-        align-self: flex-end;
-    }
+  .cat {
+    align-self: flex-end;
+  }
 }
 
 .ex17 {
-    display: flex;
-    height: 97vh;
-    align-items: flex-start;
+  display: flex;
+  height: 97vh;
+  align-items: flex-start;
 
-    .cat {
-        order: 1;
-        align-self: flex-end;
-    }
+  .cat {
+    order: 1;
+    align-self: flex-end;
+  }
 }
 
 .ex18 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-wrap: wrap;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-wrap: wrap;
 }
 
 .ex19 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .ex20 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-flow: column wrap;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-flow: column wrap;
 }
 
 .ex21 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-wrap: wrap;
-    align-content: flex-start;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .ex22 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-wrap: wrap;
-    align-content: flex-end;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
 .ex23 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-content: center;
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
 }
 
 .ex24 {
-    display: flex;
-    height: 97vh;
-    width: 50%;
-    flex-flow: column-reverse wrap-reverse;
-    justify-content: center;
-    align-content: space-between;
-
+  display: flex;
+  height: 97vh;
+  width: 50%;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
 }

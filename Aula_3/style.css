@@ -1,77 +1,73 @@
 /* Reset */
-*{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 /* Seletor por tag */
 
-p{
-    color: red;
+p {
+  color: red;
 }
 
 /* Seletor por classe */
-.blue{
-    color: blueviolet;
-    background-color: gray;
-    padding-left: 50px;
-    margin-left: 50px;
-    text-align: center;
+.blue {
+  color: blueviolet;
+  background-color: gray;
+  padding-left: 50px;
+  margin-left: 50px;
+  text-align: center;
 }
 
-.impact{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* Seletor por id */
-#meuID{
-    color: gold;
-    text-decoration: none;
+#meuID {
+  color: gold;
+  text-decoration: none;
 }
 
 /* Fim dos exemplos */
 
-img{
-    width: 500px;
-    height: 500px;
-    border: 2px solid goldenrod;
-    border-radius: 1%;
-    margin: 100px;
+img {
+  width: 500px;
+  height: 500px;
+  border: 2px solid goldenrod;
+  border-radius: 1%;
+  margin: 100px;
 }
 
-.skranji{
-    font-family: "Skranji", system-ui;
-    font-weight: 400;
-    font-style: normal;
+.skranji {
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Menu */
 nav {
-    background-color: #000000;
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #000000;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
-
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
-
 
 a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-
 a:hover {
-    color: #de2e2e;
+  color: #de2e2e;
 }
