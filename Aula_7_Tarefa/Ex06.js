@@ -1,15 +1,12 @@
-function teste(num){
-    console.log("Número: ",num);
-if(num <= 0)
-{
-    console.log("Número Inválido");
+function teste(num) {
+    console.log("Número: ", num);
+    if (num <= 0) {
+        console.log("Número Inválido");
+    }
+    else {
+        console.log("Resultado: ", num * 2);
+    }
 }
-else
-{
-    console.log("Resultado: ",num*2);
-}
-}
-
 
 var num1 = 12, num2 = -12;
 

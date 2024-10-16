@@ -1,7 +1,6 @@
 var i;
 
 console.log("Números ímpares: ")
-for(i=1;i<=100;i+=2)
-{
+for (i = 1; i <= 100; i += 2) {
     console.log(i);
 }

@@ -1,13 +1,11 @@
-function palindromo(texto){
+function palindromo(texto) {
     var temp;
     temp = texto.split('').reverse().join('');
-    if(temp == texto)
-    {
-        console.log(texto,"é um palíndromo");
+    if (temp == texto) {
+        console.log(texto, "é um palíndromo");
     }
-    else
-    {
-        console.log(texto,"não é um palíndromo");
+    else {
+        console.log(texto, "não é um palíndromo");
     }
 }
 
