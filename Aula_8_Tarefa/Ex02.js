@@ -1,5 +1,6 @@
-let calcuraAreaRetangulo = (a,b) => a*b;
+var i;
 
-
-console.log("Base do retangulo: 9", "Altura do retangulo: 10");
-console.log("Area do retangulo:", calcuraAreaRetangulo(9,10));
+console.log("Números ímpares: ")
+for (i = 1; i <= 100; i += 2) {
+    console.log(i);
+}

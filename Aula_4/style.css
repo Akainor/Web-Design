@@ -1,50 +1,73 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+/* Seletor por tag */
+
+p {
+  color: red;
+}
+
+/* Seletor por classe */
+.blue {
+  color: blueviolet;
+  background-color: gray;
+  padding-left: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Seletor por id */
+#meuID {
+  color: gold;
+  text-decoration: none;
+}
+
+/* Fim dos exemplos */
+
 img {
-  width: 120px;
-  height: 120px;
+  width: 500px;
+  height: 500px;
+  border: 2px solid goldenrod;
+  border-radius: 1%;
+  margin: 100px;
 }
 
-.circle {
-  border-radius: 50%;
+.skranji {
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.camel {
-  border: 5px solid yellow;
+/* Menu */
+nav {
+  background-color: #000000;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.horse {
-  border: 5px solid red;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.cat {
-  border: 5px solid blueviolet;
+li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.animals {
-  display: flex;
-  height: 97vh;
-
-  /*width: 50%;*/
-
-  /*justify-content: center;
-    align-items: center;*/
-
-  /*flex-direction: row-reverse;
-    justify-content: flex-end;*/
-
-  /*flex-direction: column;
-    justify-content: space-around;
-    align-items: center;*/
-
-  flex-wrap: wrap;
-  align-content: flex-start;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-}
-
-.main_text {
-  width: 50%;
-  padding-right: 50px;
+a:hover {
+  color: #de2e2e;
 }

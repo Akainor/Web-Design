@@ -1,5 +1,19 @@
-let endereço = {"Rua": "Águiar", "Numero": 332, "Bairro": "Haro", "Cidade": "Sorocaba"};
+function validar(email) {
+    const partes = email.split('@');
+    if (partes.length !== 2 || partes[0] === '' || partes[1] === '') {
+        return false;
+    }
 
-for (let prop in endereço) {
-    console.log(prop + ": " + endereço[prop]);
+    // Verifica se há pelo menos um ponto '.' após o '@'
+    const dominio = partes[1];
+    if (dominio.indexOf('.') === -1) {
+        return false;
+    }
+
+    return true;
 }
+
+console.log("teste@exemplo.com", validar("teste@exemplo.com"));
+console.log("teste@exemplo", validar("teste@exemplo"));
+console.log("teste@.com", validar("teste@.com"));
+console.log("test@@exemplo.com", validar("test@@exemplo.com"));

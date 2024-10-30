@@ -1,13 +1,4 @@
-let numeros = [10, 20, 30, 40, 50];
+var texto = "Disciplina de Programação para Web";
 
-let somaArray = function (array) {
-    let i;
-    let soma=0;
-    for(i=0;i<array.length;i++)
-    {
-        soma += array[i];
-    }
-    return soma;
-}
-
-console.log(somaArray(numeros));
+console.log("Texto: ", texto);
+console.log("Número de caracteres do texto: ", texto.length);

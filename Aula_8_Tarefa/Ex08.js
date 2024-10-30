@@ -1,9 +1,19 @@
-let produto = {"Nome": "Borracha" ,"Quantidade": 42, "Preço": 4 ,
-    calcularTotal : function() {
-        return this.Preço*this.Quantidade;
-    }
-};
+function contar(str) {
+    const vogais = 'aeiou';
+    let cont = 0;
 
-const total = produto.calcularTotal();
-console.log(produto);
-console.log("Total:", total);
+    for (let char of str) {
+        if (vogais.includes(char)) {
+            cont++;
+        }
+    }
+
+    return cont;
+}
+
+let texto = "Variado";
+
+let vog = contar(texto);
+
+console.log("Texto: ", texto);
+console.log("Quantidade de vogais: ", vog);

@@ -1,8 +1,11 @@
-let cidades = ["Sorocaba", "Piedade", "Votorantim"];
+let i;
+let numeros = '';
 
-console.log("Cidades: "+cidades);
+for (i = 1; i <= 10; i++) {
+    numeros += i;
+    if (i < 10) {
+        numeros += '-';
+    }
+}
 
-cidades.unshift("Curitiba");
-cidades.pop();
-
-console.log("Cidades: "+cidades);
+console.log(numeros);
