@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="whole">
+        <p class="title">Calculadora</p>
+        <div>
+            <p class="calchead" id="screen">0</p>
+        </div>
+        <div class="calcbody">
+            <button class="b" id="1" onclick="number(1)">1</button>
+            <button class="b" id="2" onclick="number(2)">2</button>
+            <button class="b" id="3" onclick="number(3)">3</button>
+            <button class="b" id="plus" onclick="plus()">+</button>
+            <button class="b" id="4" onclick="number(4)">4</button>
+            <button class="b" id="5" onclick="number(5)">5</button>
+            <button class="b" id="6" onclick="number(6)">6</button>
+            <button class="b" id="minus" onclick="minus()">-</button>
+            <button class="b" id="7" onclick="number(7)">7</button>
+            <button class="b" id="8" onclick="number(8)">8</button>
+            <button class="b" id="9" onclick="number(9)">9</button>
+            <button class="b" id="mult" onclick="multi()">*</button>
+            <button class="b" id="clear" onclick="del()">C</button>
+            <button class="b" id="0" onclick="number(0)">0</button>
+            <button class="b" id="equal" onclick="equal()">=</button>
+            <button class="b" id="divs" onclick="divi()">/</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

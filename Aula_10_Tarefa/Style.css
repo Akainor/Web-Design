@@ -1,0 +1,42 @@
+.whole {
+    background-color: grey;
+    border-color: grey;
+    border-radius: 1%;
+    width: 410px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.calchead {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    width: 400px;
+    height: 50px;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: "VT323", monospace;
+}
+
+.calcbody {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
