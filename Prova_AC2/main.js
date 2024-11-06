@@ -17,3 +17,10 @@ function atualizarLista() {
     });
     document.querySelector('#input').value = "";
 }
+
+function apagarTudoMesmo() {
+    itens.forEach((index) => {
+        apagar(index);
+        atualizarLista();
+    });
+}
