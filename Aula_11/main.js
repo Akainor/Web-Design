@@ -40,16 +40,23 @@ function read(id) {
         });
 }
 
-function salvar (nome, avatar) {
+function salvar(nome, avatar) {
     fetch(url, {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-
+        body: JSON.stringify({ 
+            "name": nome,
+            "avatar": avatar 
         })
-    })
+      })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error('Erro:', error));
+    
+    
 }
 
 read(39);
+salvar("Sebastião", "https://www.google.com.br");
